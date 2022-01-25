@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <form name="contact" method="POST" data-netlify="true">
+        <form name="file-form-test" method="POST" data-netlify="true">
           <p>
             <label>Your Name: <input type="text" name="name" /></label>   
           </p>
