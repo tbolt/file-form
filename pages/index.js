@@ -12,6 +12,7 @@ export default function Home() {
 
       <main>
         <form name="file-form-test" method="POST" data-netlify="true">
+          <input type="hidden" name="file-form-test" value="file-form-test" />
           <p>
             <label>Your Name: <input type="text" name="name" /></label>   
           </p>
