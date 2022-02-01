@@ -9,7 +9,6 @@ export default function Home() {
         <title>Form Demo</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <main>
         <form name="file-form-test" method="POST" data-netlify="true">
           <input type="hidden" name="file-form-test" value="file-form-test" />
@@ -23,7 +22,6 @@ export default function Home() {
             <label>Message: <textarea name="message"></textarea></label>
           </p>
           <p>
-            <span>Add file:</span>
             <input name="file" type="file"/>
           <p class="result"></p>
           
