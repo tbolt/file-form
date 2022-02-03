@@ -24,15 +24,12 @@ export default function Home() {
           <p>
             <input name="file" type="file"/>
           <p class="result"></p>
-          
           </p>
           <p>
             <button type="submit">Send</button>
           </p>
         </form>
-
       </main>
-
       <Footer />
     </div>
   )
